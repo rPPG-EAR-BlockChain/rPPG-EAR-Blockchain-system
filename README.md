@@ -6,12 +6,14 @@ You may visit [here](https://github.com/xliucs/MTTS-CAN) to checkout our python 
 
 ## Demo
 
-**Try out our live demo via link [here](https://vitals.cs.washington.edu/).**
+웹캠을 통해 실시간 생체 신호를 측정할 수 있습니다.
 
-Instructions:
-1. Please allow the camera access
-2. Place your face centered the red square
-3. The result will be shown after 30 seconds.
+사용 방법:
+1. 카메라 권한을 허용해주세요.  
+2. 얼굴을 화면 중앙의 사각형 가이드에 맞춰주세요.  
+3. `Start Monitoring` 버튼 클릭 후 약 30초간 측정이 진행됩니다.  
+4. 결과는 실시간 그래프와 수치로 출력됩니다.
+5. `Contract send` 버튼을 누르면 결과가 블록체인에 기록됩니다.
 
 ## Run in local
 
