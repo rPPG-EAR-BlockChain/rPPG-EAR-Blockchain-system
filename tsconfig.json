@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "es2017", // ✅ ES5 → ES2017 로 상향
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+
+    "downlevelIteration": true // ✅ 추가 (TypedArray spread 허용)
+  },
+  "include": ["src", "src/hooks", "hooks", "src/utils"]
+}
