@@ -25,7 +25,7 @@ npm install
 그 다음, 개발 서버를 실행합니다:
 
 ```bash
-npm run dev
+npm start
 # or
 yarn dev
 ```
